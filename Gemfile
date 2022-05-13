@@ -7,5 +7,6 @@ group :development do
   unless ENV["CI"] == "true"
     gem "travis"
     gem "pry"
+    gem "webrick"
   end
 end
